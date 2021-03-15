@@ -1,0 +1,10 @@
+<suite name="Example_Suite" parallel="none" thread-count="1">
+	<test name="Example1.feature" preserve-order="false">
+		<classes>
+			<parameter name="FeatureName" value="Example/Exercise_1.feature"/>
+			<parameter name="RunAgainst" value="TEST"/>
+			<parameter name="Browser" value="Chrome"/>
+			<class name="com.massmutual.automation.cucumberRunner.RunCukesByCompositionTest"/>
+		</classes>
+	</test>
+</suite>
